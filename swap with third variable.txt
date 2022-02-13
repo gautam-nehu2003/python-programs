@@ -1,0 +1,8 @@
+def swap(a,b):
+    tem=a
+    a=b
+    b=tem
+    print(a)
+    print(b)
+
+swap(10,20)
