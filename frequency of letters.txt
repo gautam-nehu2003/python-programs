@@ -1,0 +1,16 @@
+dict={}
+name= "nehasharma"
+list1=list(name)
+for x in list1 :
+    if x in dict :
+        dict[x]=dict[x]+1
+    else:
+        dict[x]=1
+
+for x in dict :
+    print(x,"=",dict[x])
+                     
+        
+    
+        
+
