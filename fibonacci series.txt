@@ -1,0 +1,6 @@
+list1=[1,1]
+term=7
+for i in range(2,term):
+    sum=list1[i-2]+list1[i-1]
+    list1.append(sum)
+print(list1)
