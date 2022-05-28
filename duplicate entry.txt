@@ -1,0 +1,8 @@
+a=[1,2,3,4,23,2,4,1,23,99,0,67,99,87,67]
+print(a)
+n=len(a)
+for i in range(0,n):
+    for j in range (i+1,n):
+        if(a[i]==a[j]):
+            print("duplicate entry found at index",i,j)
+    
