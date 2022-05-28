@@ -1,0 +1,9 @@
+list1=[[1,2,3],[9,4,5],[6,-1,10]]
+def min2d(listoflist):
+    min=listoflist[0][0]
+    for x in(listoflist):
+        for y in x:
+            if y<min:
+                min=y
+    return min
+print(min2d(list1))
